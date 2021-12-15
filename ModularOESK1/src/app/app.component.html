@@ -1,5 +1,19 @@
 <div class="pageWrapper">
-  <h1 class="pageWrapper__title">Click a button to redirect to another page</h1>
-</div>
+  <h1 class="pageWrapper__header">Click a button to redirect to page</h1>
+  <section class="pageWrapper__actionButtons">
+    <button
+      mat-raised-button
+      class="pageWrapper__btn"
+      (click)="redirectToLocalGallery()"
+    >
+      Dogs' photos
+    </button>
+    <button mat-raised-button class="pageWrapper__btn">
+      Dogs' photos from API
+    </button>
+  </section>
 
-<router-outlet></router-outlet>
+  <div class="pageWrapper__outlet">
+    <router-outlet></router-outlet>
+  </div>
+</div>

@@ -1,0 +1,13 @@
+.photoGalleryWrapper {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.photoGalleryWrapper__image {
+  width: 300px;
+  height: auto;
+  padding: 0.625rem;
+}

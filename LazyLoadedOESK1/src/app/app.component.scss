@@ -1,0 +1,26 @@
+.pageWrapper {
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  padding: 0.625rem;
+  box-sizing: border-box;
+}
+
+.pageWrapper__header {
+  display: flex;
+  justify-content: center;
+}
+
+.pageWrapper__actionButtons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.25rem;
+}
+
+.pageWrapper__outlet {
+  width: 100%;
+}
+
+.pageWrapper__btn {
+  margin-right: 0.625rem;
+}

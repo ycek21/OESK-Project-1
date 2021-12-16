@@ -7,11 +7,19 @@ import { Router } from '@angular/router';
   styleUrls: ['./app.component.scss'],
 })
 export class AppComponent {
-  title = 'ModularOESK1';
+  title = 'OESK Project 1.';
 
   constructor(private router: Router) {}
 
   public redirectToLocalGallery() {
     this.router.navigate(['local']);
+  }
+
+  public redirectToMainPage() {
+    this.router.navigate(['']);
+  }
+
+  public redirectToApiGallery() {
+    this.router.navigate(['api']);
   }
 }

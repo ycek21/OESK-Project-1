@@ -6,8 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./local-photos.component.scss'],
 })
 export class LocalPhotosComponent implements OnInit {
-  // photos: number[] = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
-
   photos: string[] = [
     'assets/dogs/1.jpg',
     'assets/dogs/2.jpeg',

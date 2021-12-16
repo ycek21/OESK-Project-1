@@ -6,6 +6,6 @@ import { PhotoGalleryComponent } from './photo-gallery/photo-gallery.component';
 @NgModule({
   declarations: [PhotoGalleryComponent],
   imports: [CommonModule, MaterialModule],
-  exports: [MaterialModule, PhotoGalleryComponent],
+  exports: [MaterialModule, CommonModule, PhotoGalleryComponent],
 })
 export class SharedModule {}
